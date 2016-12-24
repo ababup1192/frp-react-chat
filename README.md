@@ -1,6 +1,4 @@
-# FRP React Template
-
-[![CircleCI](https://circleci.com/gh/ababup1192/frp-react-template.svg?style=svg)](https://circleci.com/gh/ababup1192/frp-react-template)
+# FRP React Chat
 
 # Preparation
 
@@ -45,4 +43,10 @@ $ open http://localhost:8080/webpack-dev-server/
 ```
 $ yarn build
 // Create index.html and bundle.js to build/
+```
+
+# Deploy
+
+```
+$ yarn deploy
 ```
