@@ -1,0 +1,48 @@
+{
+  "name": "frp-react-chat",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "deploy": "webpack && firebase deploy"
+  },
+  "dependencies": {
+    "@types/baconjs": "^0.7.31",
+    "@types/es6-promise": "^0.0.32",
+    "@types/immutable": "^3.8.6",
+    "@types/jest": "^16.0.2",
+    "@types/react": "^0.14.55",
+    "@types/react-dom": "^0.14.19",
+    "baconjs": "^0.7.89",
+    "css-loader": "^0.25.0",
+    "firebase": "^3.6.4",
+    "firebase-tools": "^3.2.1",
+    "html-webpack-plugin": "^2.22.0",
+    "immutable": "^3.8.1",
+    "jest": "^16.0.1",
+    "jest-cli": "^16.0.1",
+    "pug-html-loader": "^1.0.9",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sanitize.css": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "ts-jest": "^0.1.8",
+    "ts-loader": "^0.9.4",
+    "tslint": "^4.1.1",
+    "typescript": "^2.1.4",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

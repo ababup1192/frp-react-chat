@@ -1,0 +1,15 @@
+@import url(~sanitize.css/sanitize.css);
+#content {
+    padding: 20px;
+}
+
+input {
+    width: 55px;
+    margin-left: 10px;
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666666;
+    font: inherit;
+    font-weight: normal;
+    flex: 1 1 auto;
+    order: 2;
+}
